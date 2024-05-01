@@ -8,14 +8,14 @@ The completed exercises will be evaluated by the **ScaleForge** team using the f
 
 # Instructions
 1. Duplicate this repository and push it to a private repository on your personal GitHub account. Refer [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) to learn how to duplicate a repository.
-2. Implement the web application as described in the `Requiments` section. The candiate must use either `Next.js` or `SvelteKit` as the frontend framework. The web application must run locally by running the `npm start` command. The web application must then be accessible via a web browser at `http://localhost:3000`.
+2. Implement the web application as described in the `Requirements` section. The candiate must use either `Next.js` or `SvelteKit` as the frontend framework. The web application must run locally by running the `npm start` command. The web application must then be accessible via a web browser at `http://localhost:3000`.
 3. Push your changes to your duplicated repository.
 4. Add the following **ScaleForge** team members as collaborators to your duplicated repository:
    - `rogermadjos`
    - `ccpacillos`
 
 # Requirements
-The web application displays a list of members and their corresponding details. The web application must implement the UI as specified in the provided Figma [file](https://www.figma.com/file/AwrMuHBOqmAAj0g8mv4MWb/Frontend-Test-Mockup-Design?type=design&node-id=4%3A121&mode=design&t=gNzV3SQsKXfkhEJR-1). The list of members can be fetched from the provided [GraphQL API](https://account.development.opexa.io/graphql). All the necessary information for using the GraphQL API is provided in the `Docs` section in the GraphQL Playground. In particular, the web application must use the following endpoints:
+The web application displays a list of members and their corresponding details. The web application must implement the UI as specified in the provided Figma [file](https://www.figma.com/file/AwrMuHBOqmAAj0g8mv4MWb/Frontend-Test-Mockup-Design?type=design&node-id=4%3A121&mode=design&t=gNzV3SQsKXfkhEJR-1). The list of members can be fetched from the provided [GraphQL API](https://report.development.opexa.io/graphql). All the necessary information for using the GraphQL API is provided in the `Docs` section in the GraphQL Playground. In particular, the web application must use the following endpoints:
 - `Query.members` - fetch the list of members
 - `Query.membersByName` - search members by name
 - `Query.membersByEmailAddress` - search members by email address
